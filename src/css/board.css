@@ -1,0 +1,60 @@
+:root {
+        
+}
+  
+.board{
+    width: 30vw;
+    height: 50%;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    }
+
+
+.input {
+    color: darksalmon;
+    position: relative;
+    font-size: 3rem;
+    cursor: default;
+    height: 33.33%;
+    width: 33.33%;
+    text-align: center;
+    padding: 9px 0;
+}
+  
+ .input-1{
+    border-right: 4px solid rgb(230, 230, 230);
+    border-bottom: 4px solid rgb(230, 230, 230);
+}
+  
+.input-2{
+    border-right: 4px solid rgb(230, 230, 230);
+    border-bottom: 4px solid rgb(230, 230, 230);
+}
+  
+.input-3{
+    border-bottom: 4px solid rgb(230, 230, 230);
+}
+  
+.input-4{
+    border-right: 4px solid rgb(230, 230, 230);
+    border-bottom: 4px solid rgb(230, 230, 230);
+}
+  
+.input-5{
+    border-right: 4px solid rgb(230, 230, 230);
+    border-bottom: 4px solid rgb(230, 230, 230);
+}
+  
+.input-6{
+    border-bottom: 4px solid rgb(230, 230, 230);
+}
+  
+.input-7{
+    border-right: 4px solid rgb(230, 230, 230);
+}
+  
+.input-8{
+    border-right: 4px solid rgb(230, 230, 230);
+} 

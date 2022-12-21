@@ -1,0 +1,16 @@
+.info {
+    width: 30vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(230, 230, 230);
+}
+  
+.player {
+    padding: .5rem 0;
+    display: flex;
+    font-size: 1.5rem;
+    justify-content: center;
+    align-items: center;
+    width: 10vw;
+}
