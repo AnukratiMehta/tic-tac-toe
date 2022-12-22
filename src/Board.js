@@ -96,6 +96,9 @@ const Board = ({ reset, setReset, winner, setWinner }) => {
         }
   
     })
+
+    // <div className={"input input-1 " + (turn === 'X' ? '' : 'o')} onClick={(e) => draw(e, 1)}></div>
+    // figure out how to have different colors for X and O
   
     return (
         <div ref={boardRef} className="board">
