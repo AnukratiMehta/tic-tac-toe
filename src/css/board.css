@@ -9,6 +9,7 @@
     align-items: flex-start;
     flex-direction: row;
     flex-wrap: wrap;
+    
     }
 
 .input {
@@ -18,7 +19,7 @@
     height: 33.33%;
     width: 33.33%;
     text-align: center;
-    padding: 9px 0;
+    padding: 4%;
 }
   
  .input-1, .input-2, .input-4, .input-5{
@@ -40,7 +41,7 @@
     width: 65vw;
     }
     .input {
-        padding: 0;
+        padding: 6%;
     }
 }
   
@@ -50,7 +51,7 @@
     }
 
     .input {
-        padding: 0;
+        padding: 6%;
     }
 }
 
@@ -61,7 +62,14 @@
     }
 
     .input {
-        padding: 0;
+        padding: 6%;
+    }
+}
+
+@media (max-width: 768px) and (min-width: 426px)  {
+
+    .input {
+        padding: 6%;
     }
 }
 
