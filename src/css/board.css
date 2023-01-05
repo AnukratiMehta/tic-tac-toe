@@ -12,8 +12,16 @@
     
     }
 
+    .x {
+        color: #86C8BC;
+    }
+    
+    .o {
+        color: darksalmon;
+    }
+    
+
 .input {
-    color: darksalmon;
     font-size: 3rem;
     cursor: default;
     height: 33.33%;
