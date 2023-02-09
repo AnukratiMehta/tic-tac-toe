@@ -1,0 +1,27 @@
+.footer {
+    padding-bottom: 5px;
+    position: absolute;
+    bottom: 0;
+}
+
+p {
+    text-align: center;
+    color: rgb(230, 230, 230);
+    font-size: 15px;
+    margin: 0;
+}
+
+.heart {
+    color: #86C8BC;
+    opacity: 0.8;
+}
+
+a {
+    text-decoration: none;
+    color: #86C8BC;
+    font-size: 15px;
+}
+
+a:hover {
+    color: darksalmon;
+}

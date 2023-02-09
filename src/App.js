@@ -3,6 +3,7 @@ import Info from "./Info";
 import Title from './Title';
 import "./css/app.css";
 import { useState } from 'react';
+import Footer from './Footer';
 
 export default function App() {
 
@@ -31,6 +32,7 @@ export default function App() {
                     setWinner={setWinner} />
             </div>
             <Info />
+            <Footer />
         </div>
     )
 }
