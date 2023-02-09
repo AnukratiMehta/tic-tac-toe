@@ -1,5 +1,5 @@
 import "./css/info.css";
-  
+
 const Info = () => {
     return (
         <div className="info">
@@ -8,5 +8,5 @@ const Info = () => {
         </div>
     )
 }
-  
+
 export default Info;

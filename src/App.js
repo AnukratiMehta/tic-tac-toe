@@ -16,19 +16,21 @@ export default function App() {
 
     return (
         <div className="App">
-        
-        <div className={`winner ${winner !== '' ? '' : 'shrink'}`}>
-            
-            <div className='winner-text'>{winner}</div>
-            
-            <button onClick={() => resetBoard()}>
-                Reset Board
-            </button>
+
+            <div className={`winner ${winner !== '' ? '' : 'shrink'}`}>
+
+                <div className='winner-text'>{winner}</div>
+
+                <button onClick={() => resetBoard()}>
+                    Reset Board
+                </button>
+            </div>
+            <Title />
+            <div className='board-container'>
+                <Board reset={reset} setReset={setReset} winner={winner}
+                    setWinner={setWinner} />
+            </div>
+            <Info />
         </div>
-        <Title/>
-        <Board reset={reset} setReset={setReset} winner={winner} 
-            setWinner={setWinner} />
-        <Info />
-    </div>
     )
 }
