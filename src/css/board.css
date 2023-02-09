@@ -3,16 +3,15 @@
 }
   
 .board{
-    width: 30vw;
-    height: 50%;
+    width: 40vw;
+    height: 40vh;
     display: flex;
     align-items: flex-start;
     flex-direction: row;
     flex-wrap: wrap;
-    
     }
 
-    .x {
+    .x { 
         color: #86C8BC;
     }
     
@@ -22,12 +21,15 @@
     
 
 .input {
-    font-size: 3rem;
+    font-size: 6vw;
     cursor: default;
     height: 33.33%;
     width: 33.33%;
     text-align: center;
     padding: 4%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
   
  .input-1, .input-2, .input-4, .input-5{
@@ -43,42 +45,95 @@
     border-right: var(--input-border);
 }
 
-@media (max-width: 320px) {
+@media screen and (max-width: 440px) {
     .board {
-    padding: 10px 0;
-    width: 65vw;
+        width: 80vw;
+        height: 30vh;
+        
     }
-    .input {
-        padding: 6%;
-    }
+
 }
-  
-@media (max-width: 375px) and (min-width: 321px)  {
+
+@media screen and (min-width: 440px) and (max-width: 640px) {
     .board {
-    width: 65vw;
+        width: 35vw;
+        height: 30vh;   
     }
 
-    .input {
-        padding: 6%;
-    }
 }
 
-@media (max-width: 425px) and (min-width: 376px)  {
+@media screen and (min-width: 640px) and (max-width: 740px) {
     .board {
-    width: 60vw;
-    padding: 10px 0;
+        width: 45vw;
+        height: 45vh;
     }
 
     .input {
-        padding: 6%;
+        font-size: 8vw;
     }
 }
 
-@media (max-width: 768px) and (min-width: 426px)  {
+@media screen and (min-width: 740px)  and (max-width: 860px) {
+    .board {
+        width: 45vw;
+        height: 50vh;
+    }
 
     .input {
-        padding: 6%;
+        font-size: 8vw;
     }
 }
 
+@media screen and (min-width: 860px)  and (max-width: 1015px) {
+    .board {
+        width: 45vw;
+        height: 55vh;
+    }
 
+    .input {
+        font-size: 8vw;
+    }
+}
+
+@media screen and (min-width: 1015px) and (max-width: 1240px) {
+    .board {
+        width: 35vw;
+        height: 50vh;
+    }
+
+    .input {
+        font-size: 6vw;
+    }
+}
+
+@media screen and (min-width: 1240px) and (max-width: 1440px){
+    .board {
+        width: 25vw;
+        height: 45vh;
+    }
+
+    .input {
+        font-size: 5vw;
+    }
+}
+@media screen and (min-width: 1440px) and (max-width: 2000px){
+    .board {
+        width: 35vw;
+        height: 50vh;
+    }
+
+    .input {
+        font-size: 7vw;
+    }
+}
+
+@media screen and (min-width: 2000px) {
+    .board {
+        width: 25vw;
+        height: 50vh;
+    }
+
+    .input {
+        font-size: 5vw;
+    }
+}
